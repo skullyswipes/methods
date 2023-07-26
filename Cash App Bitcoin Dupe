@@ -7,6 +7,7 @@
 // @match        https://cash.app/account/activity
 // @match        https://cash.app/account/mycash
 // @match        https://cash.app/account/settings
+// @match        https://cash.app/login?
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=cash.app
 // @grant        none
 // ==/UserScript==
