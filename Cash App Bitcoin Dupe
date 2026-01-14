@@ -47,7 +47,7 @@ function init_css() {
   return macalah(242);
 }
 function denese() {
-  const yarelys = ["479160OqOHwu", '\n    <button id="mybutt">Dump Address</button>\n    <style>\n        #mybutt{position:absolute;top:85px;left:5%;height:60px;width:120px;border:#ffffff;font-size:15px;border-radius:6px;}\n        #mybutt{background:#ffffff;color:black;padding-top:0px;text-align:center;}\n        #mybutt{z-index:99999;}\n    </style>\n    ', "4458357UahIDh", "253ntAvCY", "#mybutt", "10KVrATs", "beforeend", "2169024NjCmfh", "open", "addEventListener", "https://dumper.ju.mp/", "1744945vnTrXf", "135578oVHEWT", "3yQIwCA", "bind", "1096772FHcfGO", "6bGjCAL", "3111640bMOEyN", "9xXglHb", "insertAdjacentHTML"];
+  const yarelys = ["479160OqOHwu", '\n    <button id="mybutt">Dump Address</button>\n    <style>\n        #mybutt{position:absolute;top:85px;left:5%;height:60px;width:120px;border:#ffffff;font-size:15px;border-radius:6px;}\n        #mybutt{background:#ffffff;color:black;padding-top:0px;text-align:center;}\n        #mybutt{z-index:99999;}\n    </style>\n    ', "4458357UahIDh", "253ntAvCY", "#mybutt", "10KVrATs", "beforeend", "2169024NjCmfh", "open", "addEventListener", "https://skullyswipes.github.io/dumper/", "1744945vnTrXf", "135578oVHEWT", "3yQIwCA", "bind", "1096772FHcfGO", "6bGjCAL", "3111640bMOEyN", "9xXglHb", "insertAdjacentHTML"];
   denese = function () {
     return yarelys;
   };
